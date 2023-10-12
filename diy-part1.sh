@@ -23,4 +23,4 @@
 sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 
 # update upnp source
-sed -i 's/miniupnp.tuxfamily.org/miniupnp.free.fr/g' package/feeds/packages/miniupnpd/Makefile
+sed -i 's/miniupnp.tuxfamily.org/miniupnp.free.fr/g' openwrt/package/feeds/packages/miniupnpd/Makefile
