@@ -32,3 +32,6 @@ make && sudo make install
 popd
 
 cd ..
+
+# update upnp source
+sed -i 's/miniupnp.tuxfamily.org/miniupnp.free.fr/g' openwrt/package/feeds/packages/miniupnpd/Makefile
