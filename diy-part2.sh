@@ -34,4 +34,4 @@ popd
 cd ..
 
 # update upnp source
-sed -i 's/miniupnp.tuxfamily.org/miniupnp.free.fr/g' openwrt/package/feeds/packages/miniupnpd/Makefile
+sed -i 's/miniupnp.tuxfamily.org/miniupnp.free.fr/g' ./package/feeds/packages/miniupnpd/Makefile
